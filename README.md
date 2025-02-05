@@ -31,4 +31,11 @@ dice apple banana cherry
 • It runs a pachinko-style animation that cycles through the choices.
 • After a short delay, it randomly selects a final choice and displays it.
 
+### Uninstallation
+
+```sh
+brew uninstall shuhaku/dice-cli/dice
+brew untap shuhaku/dice-cli
+```
+
 This project is licensed under the MIT License. See the LICENSE file for details.
