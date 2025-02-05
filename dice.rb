@@ -8,7 +8,7 @@ class Dice < Formula
   depends_on "node"
 
   def install
-    bin.install "bin/dice"
+    bin.install "bin/main.js" => "dice"
   end
 
   test do
